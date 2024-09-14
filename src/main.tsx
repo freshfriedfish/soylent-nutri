@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ErrorBoundary>
       <ClerkProvider
-        publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}
+        publishableKey={"pk_test_bmF0aXZlLWJsdWVqYXktNDAuY2xlcmsuYWNjb3VudHMuZGV2JA"}
       >
         <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
           <App />
